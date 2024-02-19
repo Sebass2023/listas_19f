@@ -17,9 +17,8 @@ function Perfil(props){
         </p>
         <p className='texto-perfil'>"{props.perfil}" </p>
         </div>
-        {/* Agregamos los botones para seguir en LinkedIn, YouTube y Twitter */}
         <button onClick={() => window.open(props.link, '_blank')}>
-            Seguir en LinkedIn
+            Pagina del juego
         </button>
         </div>
     </div>
